@@ -25,3 +25,11 @@ let c_no_curly_error=1
 
 set rtp+=~/.fzf
 
+" All tabs should actually be spaces, please                                    
+setlocal tabstop=4                                                              
+setlocal expandtab                                                              
+                                                                                 
+" Tab autocomplete behavior                                                      
+set wildmode=longest,list,full                                                  
+set wildmenu
+

@@ -1,0 +1,9 @@
+
+sudo vim /etc/resolv.conf 
+
+Comment everything out, then add:
+nameserver 8.8.8.8
+
+sudo /etc/init.d/networking restart
+
+
